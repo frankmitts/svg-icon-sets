@@ -1,1 +1,35 @@
-font-family: "Overpass";
+html {
+  font-family: Overpass, sans-serif;
+  color: #fff;
+}
+
+section {
+  background-image: linear-gradient(to top, #ff5e3a, #ff9500);
+}
+
+li:first-child,
+li:nth-child(2) {
+  border-bottom: 3px solid rgba(255, 255, 255, .4);
+}
+
+.btn-ghost {
+  text-decoration: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  li:first-child,
+  li:nth-child(2) {
+    border-bottom: 0;
+    border-right: 3px solid rgba(255, 255, 255, .4);
+  }
+
+}
